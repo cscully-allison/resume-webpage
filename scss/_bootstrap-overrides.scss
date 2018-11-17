@@ -2,8 +2,25 @@
   background-color: $primary !important;
 }
 
+.bg-secondary{
+  background-color: $secondary !important;
+}
+
+.bg-complimentary{
+  background-color: $complimentary !important;
+}
+
+
 .text-primary {
   color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.text-complimentary{
+  color: $complimentary !important;
 }
 
 a {
@@ -11,6 +28,7 @@ a {
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    // color: darken($primary, 15%);
+    color: $complimentary;
   }
 }
