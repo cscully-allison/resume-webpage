@@ -25,4 +25,8 @@
     target: '#sideNav'
   });
 
+  $('.unhidden').click(function(){
+    print(this)  
+  });
+
 })(jQuery); // End of use strict
