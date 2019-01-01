@@ -31,7 +31,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Connor Scully-Allison</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="A portrait of a smiling, bearded man in a vest and checkered shirt.">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -256,17 +256,47 @@
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
 
+          <div class="resume-item d-flex flex-md-row mb-5" id="QC_CUAHSI">
+            <div class="d-flex flex-md-row">
+              <div class=" col-md-9 resume-content mr-auto">
+                <h3 class="mb-0">Automated Quality Control Web Application for CUHASI Data Discovery Platform</h3>
+                <h4>[Funded][Pre-development]</h4>
+                <p>A quality control application that can be integrated into CUAHSI’s existing data upload pipelines. Developed primarily for an audience of small to medium size research teams who disseminate their data products through CUAHSI’s data discovery platform,  This service will provide tools for configuring QC tests to run on their data with customizable parameters. Additionally this platform will provide supervised machine learning functionality to classify new data qualities from past QC flags.</p>
+                  <div class="mb-2"><span class="text-secondary">Associated Grant</span>: <a href="https://www.cuahsi.org/data-models/hydroinformatics-innovation-fellowship/">CUAHSI hydroinformatics Innovation Fellowship ($5,000)</a></div>
+              </div>
+              <div class="col-md-3" >
+                <a href="img/cuahsi.png"><img class="img-thumbnail" src="img/cuahsi.png" alt="CUAHSI Logo"></img></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-md-row mb-5" id="C2M">
+            <div class="d-flex flex-md-row">
+              <div class=" col-md-9 resume-content mr-auto">
+                <h3 class="mb-0">Compilier (C --> MIPS)</h3>
+                <p>Developed a ANSI C to MIPS compilier using Python and Python LEX/YACC. Although not fully functional to ANSI C standards, it is capable of excuting recursive fuction calls, control flow statements (including all varieties of loops), standard assignments, and n-dimensonal array accesses/storage. </p>
+                <div class="mb-2"><span class="text-secondary">Technologies & Practices</span>: Python, Assembly, MIPS, ANSI C, Python LEX/YACC, Object Oriented Programming, Advanced Data Structures, Grammars, Automata, Compilier Optimization</div>
+                <div class="mb-2"><span class="text-secondary">Respository</span>: <a href="https://github.com/cscully-allison/C_Compilier">C Compilier</a></div>
+              </div>
+              <div class="col-md-3" >
+                <a href="img/c2m.png"><img class="img-thumbnail" src="img/c2m.png" alt="C 2 Mips logo. A rendering of a large C with a number 2 to the immediate right of it and mips to the right of that. C and Mips code are barely visible in the background."></img></a>
+              </div>
+            </div>
+          </div>
+
+
           <div class="resume-item d-flex flex-md-row mb-5" id="OnCoGen">
             <div class="d-flex flex-md-row">
               <div class=" col-md-9 resume-content mr-auto">
                 <h3 class="mb-0">Ontology-Based Cyberinfrastucture Generation (OnCoGen)</h3>
-                <h4>[In development]</h4>
+                <h4>[Funded][In development]</h4>
                 <p>Formalized an ontology describing the system level metadata of the NRDC with the goal of utilizing this ontology to generate relational database tables and microservices. Utilizing Python's RDF lib and Python's strong tools for string formatting, relevant information can be stripped out of an ontology and injected into SQL query and Flask templates to create a cyberinfrastucture-in-a-box. </p>
                 <div class="mb-2"><span class="text-secondary">Technologies & Practices</span>: Python, RDFLib, RDF, OWL, Ontology, XML, SQL, Data Management, Semantic Web, Web Standards</div>
-                <div class="mb-2"><span class="text-secondary">Associated Grant</span>: ESIP FUNding Friday ($3,000)</div>
+                <div class="mb-2"><span class="text-secondary">Associated Grant</span>: <a href="http://wiki.esipfed.org/index.php/FUNding_Friday_Projects#2018_Winners">ESIP FUNding Friday ($3,000)</a></div>
+                <div class="mb-2"><span class="text-secondary">Respository</span>: <a href="https://github.com/cscully-allison/OnCoGen">OnCoGen</a></div>
               </div>
               <div class="col-md-3" >
-                <img class="img-thumbnail" src="img/owl.png" ></img>
+                <a href="img/owl.png"><img class="img-thumbnail" src="img/owl.png" akt="A force directed graph showing realtions in the FOAF ontology."></img></a>
               </div>
             </div>
           </div>
@@ -278,10 +308,10 @@
                 <h4>[In development]</h4>
                 <p> Grant-funded, exploratory, collaborative project between multiple institutions (LTER, NCAR, University of Michigan and the NRDC) with the objective of integrating real time Quality Control services into the <a href="http://chordsrt.com">CHORDS</a> platform. </p>
                 <div class="mb-2"><span class="text-secondary">Technologies & Practices</span>: Python, Flask, Data Quality Control, JSON-LD, React, Data Management, Data Interoperability </div>
-                <div class="mb-2"><span class="text-secondary">Associated Grant</span>: ESIP Lab</div>
+                <div class="mb-2"><span class="text-secondary">Associated Grant</span>:<a href="https://www.esipfed.org/lab/funding-opportunities"> ESIP Lab Incubator Project</a></div>
               </div>
               <div class="col-md-3" >
-                <img class="img-thumbnail" src="img/chords_logo_text.png" ></img>
+                  <a href="img/chords_logo_text.png"><img class="img-thumbnail" src="img/chords_logo_text.png" alt="Logo for Cloud Hosted Real-Time Data Streaming project. Rendered as C (stylized as a globe) H O R D S. "></img></a>
               </div>
             </div>
           </div>
@@ -299,9 +329,10 @@
                 <ul>
                   <li><a class="js-scroll-trigger" href="#csa_conf_5">Data Imputation With an Improved Robust and Sparse Fuzzy K-Means Algorithm</a></li>
                 </ul>
+                <div class="mb-2"><span class="text-secondary">Respository</span>: <a href="https://github.com/cscully-allison/Machine_Learning">Machine Learning</a></div>
               </div>
               <div class="col-md-3" >
-                <img class="img-thumbnail" src="img/core_solver.png" ></img>
+                <a  href="img/core_solver.png"><img class="img-thumbnail" src="img/core_solver.png" alt="An architecture digram showing the execution of parallel code in the IRSFKM algorithm."></img></a>
               </div>
             </div>
           </div>
@@ -319,9 +350,10 @@
                 <ul>
                   <li><a class="js-scroll-trigger" href="#csa_j_2">Near Real-time Autonomous Quality Control for Streaming Environmental Sensor Data</a></li>
                 </ul>
+                <div class="mb-2"><span class="text-secondary">Respository</span>: <a href="https://github.com/cscully-allison/NRDC_QC">NRDC QC</a></div>
               </div>
               <div class="col-md-3" >
-                <img class="img-thumbnail" src="img/QC_Act.png" ></img>
+                <a href="img/QC_Act.png" ><img class="img-thumbnail" src="img/QC_Act.png" alt="An architecture diagram showing the core flagging loop of the Near Real Time Autonomous Quality Control System" ></img></a>
               </div>
             </div>
             <div class="d-flex flex-md-row">
@@ -345,9 +377,10 @@
                       <li><a class="js-scroll-trigger" href="#csa_j_1">Advancing Quality Assurance Through Metadata Management: Design and Development of a Mobile Application for the NRDC</a></li>
                       <li><a class="js-scroll-trigger" href="#csa_conf_2">A Mobile Quality Assurance Application for the NRDC</a></li>
                     </ul>
+                    <div class="mb-2"><span class="text-secondary">Respository</span>: <a href="https://github.com/cscully-allison/NRDC">NRDC QA</a></div>
               </div>
               <div class="col-md-3" >
-                <img class="img-thumbnail" src="img/QA.png"></img>
+                <a href="img/QA.png"><img class="img-thumbnail" src="img/QA.png" alt="A high-level diagram showing the frontend and backend structure of the NRDC Metadata Management and Quality Assurance Application."></img></a>
               </div>
             </div>
           </div>
@@ -366,12 +399,12 @@
             <div class="d-flex flex-md-row">
               <div class=" col-md-9 resume-content mr-auto">
                 <h4 class="mb-1">Virtual Watershed System<span class="text-primary">:</span> A Web-Service-Based Software Package For Environmental Modeling </h3>
-                <p> <span class="text-primary">Citation</span>: Rui Wu, Connor Scully-Allison, Moinul Hossain Rifat, Jose, Thomas Painumkal, Sergiu Dascalu, and Frederick C Harris, Jr., “Virtual Watershed System: A Web-Service-Based Software Package for Environmental Modeling.” Accepted to: Advances in Science, Technology and Engineering Systems Journal (ASTESJ)</p>
+                <p> <span class="text-primary">Citation</span>: Rui Wu, Connor Scully-Allison, Moinul Hossain Rifat, Jose Thomas Painumkal, Sergiu Dascalu, and Frederick C Harris, Jr., “Virtual Watershed System: A Web-Service-Based Software Package for Environmental Modeling.” Accepted to: Advances in Science, Technology and Engineering Systems Journal (ASTESJ)</p>
                 <p> <span class="text-primary">Abstract</span>: The physically-based environmental model is a crucial tool used in many scientific inquiries. With physical modeling, different models are used to simulate real world phenomena and most environmental scientists use their own devices to execute the models. A complex simulation can be time-consuming with limited computing power. Also, sharing a scientific model with other researchers can difficult, which means the same model is rebuilt multiple times for similar problems. A web-service-based framework to expose models as services is proposed in this paper to address these problems. The main functions of the framework include model executions in cloud environments, NetCDF file format transmission, model resource management with various web services. As proof of concept, a prototype is introduced,implemented and compared against existing similar software packages. Through a feature comparison with equivalent software, we demonstrate that the Virtual Watershed System (VWS) provides superior customization through its APIs. We also indicate that the VWS uniquely provides friendly, usable UIs enabling researchers to execute models.
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_j_3.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_3.PNG"></img></a>
+                <a href="pubs/csa_j_3.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_3.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -384,7 +417,7 @@
                 <p> <span class="text-primary">Abstract</span>: In this paper, we present a novel and accessible approach to time-series data validation: the Near-Real Time Autonomous Quality Control (NRAQC) system. The design, implementation, and impacts of this software are explored in detail within this paper. This software system, created in close conference with environmental scientists, leverages microservice design patterns employed for high volume web applications to develop a contemporary solution to the problem of data quality control with streaming sensor data. Through a comparative analysis between NRAQC and the GCE Toolbox, we argue that the web based deployment of QC software enhances accessibility to crucial tools required to make a robust and useful data product from raw measurements. Additionally, a key innovation of the NRAQC platform is its positive impact on modern data management practices and quality data dissemination. </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_j_2.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_2.PNG"></img></a>
+                <a href="pubs/csa_j_2.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_2.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -398,7 +431,7 @@
                 </p>
                 </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_j_1.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_1.PNG" ></img></a>
+                <a href="pubs/csa_j_1.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_j_1.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -414,7 +447,7 @@
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_conf_5.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_5.PNG" ></img></a>
+                <a href="pubs/csa_conf_5.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_5.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -428,7 +461,7 @@
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_conf_4.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_4.PNG" ></img></a>
+                <a href="pubs/csa_conf_4.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_4.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -442,7 +475,7 @@
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_conf_3.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_3.PNG" ></img></a>
+                <a href="pubs/csa_conf_3.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_3.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -456,7 +489,7 @@
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_conf_2.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_2.PNG" ></img></a>
+                <a href="pubs/csa_conf_2.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_2.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -470,7 +503,7 @@
                 </p>
               </div>
               <div class="col-md-3" >
-                <a href="pubs/csa_conf_1.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_1.PNG" ></img></a>
+                <a href="pubs/csa_conf_1.pdf" target="_blank"><img class="img-thumbnail" src="img/csa_conf_1.PNG" alt="Image of the first page of an academic paper."></img></a>
               </div>
             </div>
           </div>
@@ -492,6 +525,7 @@
               <h3 class="mb-0">University of Nevada, Reno</h3>
               <div class="subheading mb-3">Masters of Science</div>
               <div>Computer Science and Engineering</div>
+              <div>Thesis: <i><a href="#">Keystone: A data and metadata management software toolset for sensor based research.<a> </i> </div>
               <div>Advisors: <a href="http://cse.unr.edu/~dascalus">Dr. Sergiu M. Dascalu</a> & <a href="http://cse.unr.edu/~fredh">Dr. Frederick C. Harris Jr.</a></div>
               <p>GPA: 3.98</p>
               <div class="">With Courses In:</div>
